@@ -1,0 +1,14 @@
+[
+	{"time":0,"commands":[
+		{"id":1,"method":"subscribe","params":["nhmp-ssl.eu.nicehash.com:443","3FpC55zVZK3nauVJxWDrT7zRQ7JzEdLwJp"]},
+		{"id":1,"method":"algorithm.add","params":["daggerhashimoto"]}
+	]},
+	{"time":1,"commands":[
+		{"id":1,"method":"worker.add","params":["daggerhashimoto","0"]}
+	]},
+	{"time":15,"loop":15,"commands":[
+	  	{"id":1,"method":"worker.print.efficiencies","params":[]},
+		{"id":1,"method":"algorithm.print.speeds","params":[]},
+		{"id":1,"method":"worker.reset","params":["0"]}
+	]}
+]
